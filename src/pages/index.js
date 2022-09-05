@@ -1,0 +1,10 @@
+export { default as Home } from "./Home/home";
+export { default as Service_1 } from "./Service/service_1";
+export { default as Service_2 } from "./Service/service_2";
+export { default as Service_3 } from "./Service/service_3";
+export { default as Service_4 } from "./Service/service_4";
+export { default as Service_5 } from "./Service/service_5";
+export { default as Service_6 } from "./Service/service_6";
+export { default as Service_7 } from "./Service/service_7";
+export { default as Career } from "./Career/career";
+export { default as Products } from "./Products/products";

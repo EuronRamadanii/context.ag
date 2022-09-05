@@ -1,0 +1,46 @@
+.Contact-page{
+    padding: 100px 0;
+    p{
+        padding: 60px 0;
+        @media (max-width:767.98px) {
+            padding: 30px 0;
+        }
+    }
+    .contact-form{
+        .form-group{
+            width: 100%;
+            input.form-control, select.form-control, textarea.form-control {
+                border: 1px solid #F1F1F1
+            }
+            .btn_submit{
+                margin-top: 20px;
+                @media (max-width:767.98px) {
+                    margin-top: 30px;
+                }
+            }
+            .btn_submit:disabled{
+                border: 1px solid #999999;
+                background-color: #cccccc;
+                color: #666666;
+                cursor:not-allowed !important;
+
+            }
+            .row {
+                .col-lg-6 {
+                    .form-control {
+                        width: 100%;
+                    }
+                    max-width: 100%;
+                }
+                .col-lg-12 {
+                    .form-control {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .margintopp{
+        margin-top: 20px;
+    }
+}

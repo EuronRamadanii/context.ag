@@ -1,0 +1,42 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category":"Web Design & Development",
+        "categorydesc":"Utilizing the most up-to-date technology and trends, the appropriate web development solutions with scalable architecture can increase the profitability,availability, and efficiency of your company. DigIT's web developers are client-focused and customer-centric, helping companies navigate the rapidly evolving digital market by developing website solution that produce measurable business benefits.",
+        "name": "Website Development",
+        "info":"Information & Process",
+        "desc":"Create your Website now to make sure that while filling up forms the field webpage will never stay empty.",
+        "descSingle": "\u2022 One Pager.\n\u2022 React.js Development (custom design or through our premium templates).\n\u2022 Improvement & automation.\n\u2022 Save both your clients and your own time before and during any purchase.\n\u2022 Always willing to assist your customers.\n\u2022 Showcase your products and services.\n\u2022 Websites may boost your company's credibility.\n\u2022 Create an internet presence and make it simple for clients to contact you.\n\u2022 Answers to frequently asked questions might help you save time.\n\u2022 Obtain recommendations (in exchange for discounts, freebies, or free services).\n\u2022 Build a new consumer base.\n\u2022 Professional email for quick and easy communication\n\u2022 Send contact information database updates on a regular basis.\n\u2022 Simple to obtain and acquire information.",
+        "process":[
+            {
+              "name":"Analyze",
+              "desc":"We define your business objectives, expectations, and problem-solving techniques to implement in your website following a thorough market analysis."
+            },
+            {
+              "name":"Plan",
+              "desc":"You receive a thorough specification with clear advantages for the creation of your website."
+            },
+            {
+              "name":"Design",
+              "desc":"We define your business objectives, expectations, and problem-solving techniques to implement in your website following a thorough market analysis."
+            },
+            {
+              "name":"Develop",
+              "desc":"Your web project will be built and implemented using the best technologies possible while adhering to the design guidelines."
+            },
+            {
+              "name":"Examine & Integrate",
+              "desc":"To completely fulfill your expectations, all the modules are assembled and verified against the specifications."
+            },
+            {
+              "name":"Envolve",
+              "desc":"Following full or partial deployment to the client or release, the online product is developed further or expanded in response to consumer feedback and organizational needs."
+            }
+          ],
+        "small": "https://i.postimg.cc/L6m4fX1g/Microsoft-Teams-image-5.png",
+        "large":"https://i.postimg.cc/L6m4fX1g/Microsoft-Teams-image-5.png"
+      }
+    ]
+
+}

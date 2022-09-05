@@ -1,0 +1,41 @@
+.service-content{
+    padding: 100px 0;
+    @media (max-width:1199.98px) {
+        padding-bottom: 50px;
+    }
+    @media (max-width:1099.98px) {
+        padding-bottom: 0px;
+    }
+    @media (max-width:599.98px) {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .service{
+        font-size: 24px;
+    }
+    h1{
+        padding-top: 16px;
+        padding-bottom: 40px;
+    }
+    .img-center{
+        align-self: center;
+        @media (max-width:991.98px) {
+            text-align: center;
+        }
+        .service-img{
+            width: 700px;
+            @media (max-width:1919.98px) {
+                width: 500px;
+            }
+            @media (max-width:1499.98px) {
+                width: 480px;
+            }
+            @media (max-width:1099.98px) {
+                width: 500px;
+            }
+            @media (max-width:499.98px) {
+                width: 400px;
+            }
+        }
+    }
+}
