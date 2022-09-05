@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../../Assets/css/_header.scss";
 import { Link } from "react-router-dom";
-import logoheader from "../../../Assets/Images/logoo.png";
+import logoheader from "../../../Assets/Images/contextLogo.png";
 import i18next, { t } from "i18next";
 import globe from "../../../Assets/Images/language/globe.png";
 
@@ -36,8 +36,9 @@ class Header extends Component {
           <img
             src={logoheader}
             className="navbar-logo"
-            height={34}
+            height={50}
             alt="Logo Header"
+            style={{ backgroundColor: "black" }}
           />
         </Link>
         <div className="menu-icon" onClick={this.handleClick}>
@@ -94,9 +95,9 @@ class Header extends Component {
           <li>
             <Link to="/career"> {t("list3")}</Link>
           </li>
-          <li>
+          {/* <li>
             <a href="/#contact"> Contact</a>
-          </li>
+          </li> */}
         </ul>
         <li>
           <a

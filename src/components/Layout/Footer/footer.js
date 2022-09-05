@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="row bottom-footer">
           <div className="divide-border"></div>
           <div className="col-lg-9 col-md-6 col-sm-12">
-            <p className="bottom-s-p">&copy;DigIT {new Date().getFullYear()}</p>
+            <p className="bottom-s-p">&copy;CONTEXT AG {new Date().getFullYear()}</p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 social-media">
             <p className="bottom-s-p">{t("follow")}</p>
