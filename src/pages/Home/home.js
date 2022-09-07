@@ -14,6 +14,9 @@ import Slider from "react-slick";
 import microsoft from "../../Assets/Images/MicrosoftPartner.png";
 import ick from "../../Assets/Images/ICKPartner.png";
 import amazon from "../../Assets/Images/AmazonPartner.png";
+import { HiLightBulb } from "react-icons/hi";
+import { FaHorseHead } from "react-icons/fa";
+// import { IoPeople } from "react-icons/";
 
 const settings = {
   infinite: true,
@@ -77,6 +80,35 @@ const Home = () => {
               {t("getStarted")}
             </button>
           </div>
+        </div>
+      </section>
+      <section className="boxes">
+        <div className="content firstBox">
+          <HiLightBulb
+            size={100}
+            style={{ paddingBottom: "", textAlign: "center" }}
+          />
+          <h2 style={{ paddingTop: "30px" }}>Beratung</h2>
+          <p>
+            Methodische Beratung zu den Themen Qualitäts-, Prozess-, &
+            Risikomanagement sowie Unterstützung bei Abstimmungen mit Kunden und
+            Zulieferern.
+          </p>
+        </div>
+        <div className="content secondBox">
+          <FaHorseHead size={100} />
+          <h2 style={{ paddingTop: "30px" }}>Entwicklung</h2>
+          <p>
+            Moderation von Risikoanalysen im Rahmen der Projektarbeit.
+            Unterstützung zum Thema Funktionale Sicherheit.
+          </p>
+        </div>
+        <div className="content thirdBox">
+          <FaHorseHead size={100} />
+          <h2 style={{ paddingTop: "30px" }}>Schulung</h2>
+          <p>
+            Durchführung von qualitativen Methoden-Schulungen & Fortbildungen.
+          </p>
         </div>
       </section>
       <section className="container about-section" id="about">
@@ -192,6 +224,68 @@ const Home = () => {
             data-aos="fade-up"
             data-aos-duration="2700"
           />
+        </div>
+      </section>
+      <section>
+        <div>
+          <h1 style={{ marginLeft: "36%", paddingBottom: "20px" }}>
+            WIR STELLEN UNS VOR
+          </h1>
+          <div style={{ display: "flex" }} className="topPhoto">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>
+              Nichts geschieht ohne Risiko, aber ohne Risiko geschieht auch
+              nichts. Walter Scheel
+            </p>
+          </div>
+          <p style={{ marginLeft: "14%" }}>Michael Fürsich | CEO</p>
+        </div>
+        <div className="photos">
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
+          <div className="photo">
+            <img
+              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+              style={{ height: "400px", width: "400px" }}
+            />
+            <p>Nichts geschieht ohne Risiko</p>
+          </div>
         </div>
       </section>
       <Contact />
