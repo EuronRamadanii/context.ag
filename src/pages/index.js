@@ -7,4 +7,4 @@ export { default as Service_5 } from "./Service/service_5";
 export { default as Service_6 } from "./Service/service_6";
 export { default as Service_7 } from "./Service/service_7";
 export { default as Career } from "./Career/career";
-export { default as Products } from "./Portofolio/products";
+export { default as Products } from "./Portofolio/portofolio";

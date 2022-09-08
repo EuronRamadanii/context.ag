@@ -287,6 +287,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <img
+          className="imggg"
+          src="https://scx1.b-cdn.net/csz/news/800a/2022/putting-the-food-syste.jpg"
+        />
+      </section>
       <Contact />
       <Footer />
     </div>
