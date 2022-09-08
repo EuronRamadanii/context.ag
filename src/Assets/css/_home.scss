@@ -42,13 +42,14 @@
 .boxes {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 .topPhoto {
   display: flex;
   margin-left: 153px;
 }
 .content {
-  background-color: rgb(121, 97, 97);
+  background-color: #6c5b5d;
   height: 350px;
   width: 400px;
   display: flex;

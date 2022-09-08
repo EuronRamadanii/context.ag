@@ -50,6 +50,9 @@ class Header extends Component {
           <li>
             <a href="/#about">{t("list1")}</a>
           </li>
+          <li>
+            <Link to="/portofolio">Portofolio</Link>
+          </li>
           <li className="dropdown">
             <a
               className="dropdown-toggle"

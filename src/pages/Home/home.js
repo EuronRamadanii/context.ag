@@ -16,7 +16,6 @@ import ick from "../../Assets/Images/ICKPartner.png";
 import amazon from "../../Assets/Images/AmazonPartner.png";
 import { HiLightBulb } from "react-icons/hi";
 import { FaHorseHead } from "react-icons/fa";
-// import { IoPeople } from "react-icons/";
 
 const settings = {
   infinite: true,

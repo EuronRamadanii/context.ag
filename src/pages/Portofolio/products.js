@@ -3,6 +3,7 @@ import { Header, Footer } from "../../components";
 import FetchProducts from "../../components/Products/FetchProducts";
 import "../../Assets/css/_products.scss";
 import { useTranslation } from "react-i18next";
+import FetchPortofolio from "../../components/Products/FetchProducts";
 
 const Products = () => {
   useEffect(() => {
@@ -12,7 +13,7 @@ const Products = () => {
   return (
     <div>
       <Header />
-      <FetchProducts />
+      <FetchPortofolio />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import products from "../../data/products.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
-export default function FetchProducts() {
+export default function Fetch() {
   const [items] = useState(products);
   AOS.init({ once: true });
   return (
