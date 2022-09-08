@@ -1,22 +1,31 @@
 .footer {
   background-color: #6c5b5d;
-  // color: white;
+  color: white;
   .s-p {
     font-weight: bold;
+  color: white;
+
   }
   .pdd-30 {
     padding-top: 30px;
+
   }
   .contacts {
     padding-left: 10px;
+  color: white;
+
   }
   ul {
     li {
       padding-bottom: 6px;
+      
     }
   }
   .bottom-footer {
     padding-bottom: 100px;
+    color: white;
+
+
     @media only screen and (max-width: 767.98px) {
       padding-bottom: 40px;
     }

@@ -85,27 +85,27 @@ const Home = () => {
         <div className="content firstBox">
           <HiLightBulb
             size={100}
-            style={{ paddingBottom: "", textAlign: "center" }}
+            style={{ paddingBottom: "", textAlign: "center", color: "white" }}
           />
-          <h2 style={{ paddingTop: "30px" }}>Beratung</h2>
-          <p>
+          <h2 style={{ paddingTop: "30px", color: "white" }}>Beratung</h2>
+          <p style={{ color: "white" }}>
             Methodische Beratung zu den Themen Qualitäts-, Prozess-, &
             Risikomanagement sowie Unterstützung bei Abstimmungen mit Kunden und
             Zulieferern.
           </p>
         </div>
         <div className="content secondBox">
-          <FaHorseHead size={100} />
-          <h2 style={{ paddingTop: "30px" }}>Entwicklung</h2>
-          <p>
+          <FaHorseHead size={100} style={{ color: "white" }} />
+          <h2 style={{ paddingTop: "30px", color: "white" }}>Entwicklung</h2>
+          <p style={{ color: "white" }}>
             Moderation von Risikoanalysen im Rahmen der Projektarbeit.
             Unterstützung zum Thema Funktionale Sicherheit.
           </p>
         </div>
         <div className="content thirdBox">
-          <FaHorseHead size={100} />
-          <h2 style={{ paddingTop: "30px" }}>Schulung</h2>
-          <p>
+          <FaHorseHead size={100} style={{ color: "white" }} />
+          <h2 style={{ paddingTop: "30px", color: "white" }}>Schulung</h2>
+          <p style={{ color: "white" }}>
             Durchführung von qualitativen Methoden-Schulungen & Fortbildungen.
           </p>
         </div>
@@ -227,7 +227,7 @@ const Home = () => {
       </section>
       <section>
         <div>
-          <h1 style={{ marginLeft: "36%", paddingBottom: "20px" }}>
+          <h1 style={{ marginLeft: "36%", paddingBottom: "30px" }}>
             WIR STELLEN UNS VOR
           </h1>
           <div style={{ display: "flex" }} className="topPhoto">
@@ -235,12 +235,12 @@ const Home = () => {
               src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
               style={{ height: "400px", width: "400px" }}
             />
-            <p>
+            <p style={{ width: "25%", marginLeft: "10px" }}>
               Nichts geschieht ohne Risiko, aber ohne Risiko geschieht auch
               nichts. Walter Scheel
             </p>
           </div>
-          <p style={{ marginLeft: "14%" }}>Michael Fürsich | CEO</p>
+          <p style={{ marginLeft: "23%" }}>Michael Fürsich | CEO</p>
         </div>
         <div className="photos">
           <div className="photo">
@@ -287,7 +287,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ marginTop: "30px" }}>
         <img
           className="imggg"
           src="https://scx1.b-cdn.net/csz/news/800a/2022/putting-the-food-syste.jpg"
