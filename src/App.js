@@ -13,7 +13,7 @@ import Service4 from "./pages/Service/service_4";
 import Service5 from "./pages/Service/service_5";
 import Service6 from "./pages/Service/service_6";
 import Service7 from "./pages/Service/service_7";
-import Portofolio from "./pages/Portofolio.js/Portofolio";
+import Portofolio from "./pages/Portofolio/portofolio";
 function App() {
   return (
     <div className="App">
@@ -46,9 +46,12 @@ function App() {
           <Route exact path="/career">
             <Career />
           </Route>
-          <Route exact path="/products">
-            <Products />
+          <Route exact path="/portofolio">
+            <Portofolio />
           </Route>
+          {/* <Route exact path="/products">
+            <Products />
+          </Route> */}
           <Route exact path="/:name">
             <SingleProduct />
           </Route>
@@ -64,9 +67,6 @@ function App() {
           <Route exact path="/apply">
             <Apply />
           </Route>
-          {/* <Route exact path="/portofolio">
-            <Portofolio />
-          </Route> */}
         </Switch>
       </BrowserRouter>
     </div>

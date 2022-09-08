@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { Header, Footer } from "../../components";
-import FetchProducts from "../../components/Products/FetchProducts";
 import "../../Assets/css/_products.scss";
 import { useTranslation } from "react-i18next";
-import FetchPortofolio from "../../components/Products/FetchProducts";
+import PortofolioComponent from "../../components/Portofolio/PortofolioComponent";
 
-const Products = () => {
+const Portofolio = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,10 +12,10 @@ const Products = () => {
   return (
     <div>
       <Header />
-      <FetchPortofolio />
+      <PortofolioComponent />
       <Footer />
     </div>
   );
 };
 
-export default Products;
+export default Portofolio;
