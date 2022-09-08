@@ -10,7 +10,7 @@ export const contactLinks = [
     // contact: ' info@digitbusiness.ch',
     // link: 'mailto:info@digitbusiness.ch',
     // cName: 'contactInfo-Links',
-    icon: <AiOutlineMail color="#FF2F51" style={{ marginRight: "3px" }} />,
+    icon: <AiOutlineMail color="#222222" style={{ marginRight: "3px" }} />,
     contact: " contacts@digitbusiness.ch",
     link: "mailto:contacts@digitbusiness.ch",
     cName: "contactInfo-Links",
@@ -18,11 +18,11 @@ export const contactLinks = [
 
   {
     // icon: <img src={phone2}  height={19}/>,
-    icon: <AiOutlinePhone color="#FF2F51" />,
+    icon: <AiOutlinePhone color="#222222" />,
     contact2: " +49 (0)89 35477460 ",
     link2: "tel:+49 (0)89 35477460",
     cName2: "contactInfo-Links",
-    // icon2: <AiOutlinePhone color="#FF2F51" />,
+    // icon2: <AiOutlinePhone color="#222222" />,
     // contact: "  +383 49 999 433",
     // link: "tel:(+383) 49-999-433",
     // cName: "contactInfo-Links",
