@@ -3,13 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  margin-left: 18%;
-  background-color: #fbfaf7;
-  z-index: 3;
-  max-width: 100%;
-  border-bottom: 1px solid rgb(201, 196, 196);
-  padding-bottom: 25px;
   .navbar-logo {
     justify-self: start;
     cursor: pointer;
@@ -37,8 +30,6 @@
       ul.dropdown-menu.show {
         background: transparent;
         border: none;
-        background-color: #fbfaf7;
-        padding: 5px;
         @media (max-width: 959.98px) {
           background: #fbfaf7;
           margin: 0px -500px;
@@ -50,9 +41,6 @@
       }
     }
   }
-}
-nav.NavbarItems.container {
-  margin: 0;
 }
 
 @media screen and (max-width: 960px) {
