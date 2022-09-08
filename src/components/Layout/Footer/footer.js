@@ -18,19 +18,29 @@ const Footer = () => {
             <Link to="/"><img src={logoheader} className='navbar-brand' alt="Logo Footer"/></Link>
           </div> */}
           <div className="col-lg-6 col-md-4 col-sm-6">
-            <p className="s-p pdd-30">{t("footer")}</p>
+            <p className="s-p pdd-30" style={{ color: "white" }}>
+              {t("footer")}
+            </p>
             <ul>
               <li>
-                <a href="/#about">{t("list1")}</a>
+                <a style={{ color: "white" }} href="/#about">
+                  {t("list1")}
+                </a>
               </li>
               <li>
-                <a href="/#services">{t("list2")}</a>
+                <a style={{ color: "white" }} href="/#services">
+                  {t("list2")}
+                </a>
               </li>
               <li>
-                <a href="/career">{t("list3")}</a>
+                <a style={{ color: "white" }} href="/career">
+                  {t("list3")}
+                </a>
               </li>
               <li>
-                <a href="/products">{t("list4")}</a>
+                <a style={{ color: "white" }} href="/products">
+                  {t("list4")}
+                </a>
               </li>
               {/* <li>
                 <a href="/testimonials">{t("list5")}</a>
@@ -45,6 +55,7 @@ const Footer = () => {
                 return (
                   <li key={index}>
                     <a
+                      style={{ color: "white" }}
                       href={item.link}
                       className={item.cName}
                       target={item.target}
@@ -69,10 +80,14 @@ const Footer = () => {
         <div className="row bottom-footer">
           <div className="divide-border"></div>
           <div className="col-lg-9 col-md-6 col-sm-12">
-            <p className="bottom-s-p">&copy;CONTEXT AG {new Date().getFullYear()}</p>
+            <p className="bottom-s-p" style={{ color: "white" }}>
+              &copy;CONTEXT AG {new Date().getFullYear()}
+            </p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 social-media">
-            <p className="bottom-s-p">{t("follow")}</p>
+            <p style={{ color: "white" }} className="bottom-s-p">
+              {t("follow")}
+            </p>
             <a href="https://twitter.com/DigIT2122" className="sm-link">
               <img src={twitter} className="social-media-icon" alt="SM icon" />
             </a>
