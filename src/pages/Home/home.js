@@ -16,6 +16,7 @@ import ick from "../../Assets/Images/ICKPartner.png";
 import amazon from "../../Assets/Images/AmazonPartner.png";
 import { HiLightBulb } from "react-icons/hi";
 import { FaHorseHead } from "react-icons/fa";
+import person from "../../Assets/Images/man.png";
 
 const settings = {
   infinite: true,
@@ -36,6 +37,68 @@ const settings = {
       breakpoint: 768,
       settings: {
         slidesToShow: 1,
+      },
+    },
+  ],
+};
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        width: "50px",
+        height: "50px",
+        padding: "15px",
+        alignItems: "center",
+        borderRadius: "4px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        width: "50px",
+        height: "50px",
+        padding: "15px",
+        alignItems: "center",
+        borderRadius: "4px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+const teams = {
+  infinite: true,
+  autoplay: true,
+  speed: 550,
+  autoplaySpeed: 3500,
+  slidesToShow: 3,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
     },
   ],
@@ -225,73 +288,22 @@ const Home = () => {
           />
         </div>
       </section>
-      <section>
-        <div>
-          <h1 style={{ marginLeft: "36%", paddingBottom: "30px" }}>
-            WIR STELLEN UNS VOR
-          </h1>
-          <div style={{ display: "flex" }} className="topPhoto">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p style={{ width: "25%", marginLeft: "10px" }}>
-              Nichts geschieht ohne Risiko, aber ohne Risiko geschieht auch
-              nichts. Walter Scheel
-            </p>
+      <section className="container">
+        <h1 style={{ paddingBottom: "60px" }}>Our Team</h1>
+        <Slider {...teams}>
+          <div>
+            <img src={person} alt="" className="offer" />
           </div>
-          <p style={{ marginLeft: "23%" }}>Michael Fürsich | CEO</p>
-        </div>
-        <div className="photos">
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
+          <div>
+            <img src={person} alt="" className="offer" />
           </div>
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
+          <div>
+            <img src={person} alt="" className="offer" />
           </div>
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
+          <div>
+            <img src={person} alt="" className="offer" />
           </div>
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
-          </div>
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
-          </div>
-          <div className="photo">
-            <img
-              src="https://e9g2x6t2.rocketcdn.me/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
-              style={{ height: "400px", width: "400px" }}
-            />
-            <p>Nichts geschieht ohne Risiko</p>
-          </div>
-        </div>
-      </section>
-      <section style={{ marginTop: "30px" }}>
-        <img
-          className="imggg"
-          src="https://scx1.b-cdn.net/csz/news/800a/2022/putting-the-food-syste.jpg"
-        />
+        </Slider>
       </section>
       <Contact />
       <Footer />
