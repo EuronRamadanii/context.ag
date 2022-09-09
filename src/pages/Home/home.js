@@ -82,7 +82,7 @@ const Home = () => {
         </div>
       </section>
       <section className="boxes">
-        <div className="content firstBox">
+        <div className="content firstBox" style={{borderRadius: "20px", boxShadow: "10px 10px 20px 1px grey"}}>
           <HiLightBulb
             size={100}
             style={{ paddingBottom: "", textAlign: "center", color: "white" }}
@@ -94,7 +94,7 @@ const Home = () => {
             Zulieferern.
           </p>
         </div>
-        <div className="content secondBox">
+        <div className="content secondBox" style={{borderRadius: "20px", boxShadow: "10px 10px 20px 1px grey"}}>
           <FaHorseHead size={100} style={{ color: "white" }} />
           <h2 style={{ paddingTop: "30px", color: "white" }}>Entwicklung</h2>
           <p style={{ color: "white" }}>
@@ -102,7 +102,7 @@ const Home = () => {
             Unterstützung zum Thema Funktionale Sicherheit.
           </p>
         </div>
-        <div className="content thirdBox">
+        <div className="content thirdBox" style={{borderRadius: "20px", boxShadow: "10px 10px 20px 1px grey"}}>
           <FaHorseHead size={100} style={{ color: "white" }} />
           <h2 style={{ paddingTop: "30px", color: "white" }}>Schulung</h2>
           <p style={{ color: "white" }}>
